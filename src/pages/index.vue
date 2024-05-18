@@ -88,10 +88,6 @@ const chainStore = useBlockchain()
 
     <AdBanner id="home-banner-ad" unit="banner" width="970px" height="90px" />
 
-    <div class="text-center text-base mt-6 text-primary">
-      <h2 class="mb-6">{{ $t('pages.description') }}</h2>
-    </div>
-
     <div class="flex items-center rounded-lg bg-base-100  border border-gray-200 dark:border-gray-700 mt-10">
       <Icon icon="mdi:magnify" class="text-2xl text-gray-400 ml-3"/>
       <input :placeholder="$t('pages.search_placeholder')" class="px-4 h-10 bg-transparent flex-1 outline-none text-base" v-model="keywords" />
